@@ -1,0 +1,26 @@
+# Build outputs
+bin/
+obj/
+
+# Test outputs
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# IDE / editor
+.vs/
+.vscode/
+
+# Packages
+packages/
+
+# SQLite local DB
+*.db
+*.db-shm
+*.db-wal
