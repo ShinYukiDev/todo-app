@@ -24,6 +24,11 @@ while (true)
     Console.WriteLine("0. 終了");
     Console.Write("操作を選択してください: ");
     var menuInput = Console.ReadLine();
+    if (menuInput is null)
+    {
+        Console.WriteLine("入力が終了したため、アプリを終了します。");
+        return;
+    }
 
     try
     {
